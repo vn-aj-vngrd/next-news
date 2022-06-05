@@ -1,12 +1,9 @@
 import { server } from "../config/index";
-import Head from "../components/Meta";
 import ArticleList from "../components/ArticleList";
 
 export default function Home({ articles }) {
   return (
     <div>
-      <Head title="News" />
-
       <ArticleList articles={articles} />
     </div>
   );

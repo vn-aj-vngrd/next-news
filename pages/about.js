@@ -1,10 +1,10 @@
-import Head from "../components/Head";
+import Meta from "../components/Meta";
 
 const about = () => {
   return (
     <div>
-      <Head title="News | About" />
-      About
+      <Meta title="Next News | About" />
+      <h3>About</h3>
     </div>
   );
 };
