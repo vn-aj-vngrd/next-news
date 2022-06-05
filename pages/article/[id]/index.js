@@ -9,7 +9,10 @@ const Article = ({ article }) => {
 
   return (
     <>
-      <Meta title={`Next News | ${article.title}`} />
+      <Meta
+        title={`Next News | ${article.title}`}
+        description={article.excerpt}
+      />
       <h1>{article.title}</h1>
       <p>{article.body}</p>
       <br />
